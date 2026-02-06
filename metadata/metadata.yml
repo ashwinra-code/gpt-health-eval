@@ -1,0 +1,26 @@
+metadata_version: 1
+name: 'The jagged edge of ChatGPT Health: Under-triage in consumer-facing artificial
+  intelligence_R1'
+description: 'ChatGPT Health launched in January 2026 as OpenAI’s consumer health
+  tool, reaching millions of users. Here, we conducted a structured stress test of
+  triage recommendations using 60 clinician-authored vignettes across 21 clinical
+  domains under 16 factorial conditions (960 total responses). Performance followed
+  an inverted U-shaped pattern, with the most dangerous failures concentrated at clinical
+  extremes: non-urgent presentations (35%) and emergency conditions (48%). Among gold-standard
+  emergencies, the system under-triaged 52% of cases, directing patients with diabetic
+  ketoacidosis and impending respiratory failure to 24–48-hour evaluation rather than
+  the emergency department, while correctly triaging classical emergencies such as
+  stroke and anaphylaxis. When family or friends minimized symptoms (anchoring bias),
+  triage recommendations shifted significantly in edge cases (OR 11.7, 95% CI 3.7-36.6),
+  with the majority of shifts toward less urgent care. Crisis intervention messages
+  activated unpredictably across suicidal ideation presentations, firing more when
+  patients described no specific method than when they did. Patient race, gender,
+  and barriers to care showed no significant effects, though confidence intervals
+  did not exclude clinically meaningful differences. Our findings identify two distinct
+  safety failures – selective under-triage of evolving emergencies and unpredictable
+  crisis guardrail activation – underscoring the need for independent safety evaluation
+  before consumer artificial intelligence deployment at scale.'
+authors:
+- name: Ashwin Ramaswamy
+  affiliations:
+  - name: Icahn School of Medicine, Mount Sinai

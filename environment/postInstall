@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -ex
+
+R -e "install.packages(c('readr', 'dplyr', 'tidyr', 'lme4', 'ggplot2', 'patchwork', 'scales', 'ggalluvial', 'irr', 'broom'), repos='https://cloud.r-project.org')"

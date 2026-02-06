@@ -1,0 +1,12 @@
+statistic,value
+r,-0.15
+r_ci_low,-0.212
+r_ci_high,-0.088
+r_p,2.8197653283759896e-6
+mean_correct,79.3
+mean_mistriaged,76.1
+mean_diff,3.2
+t,4.88
+df,279.4
+t_p,1.7470015074147724e-6
+cohens_d,0.38

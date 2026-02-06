@@ -1,0 +1,5 @@
+gold_triage,n,correct_n,accuracy,under_n,under_rate,over_n,over_rate
+A,128,45,35.2,0,0,83,64.8
+B,128,119,93,8,6.2,1,0.8
+C,160,123,76.9,2,1.2,35,21.9
+D,64,31,48.4,33,51.6,0,0

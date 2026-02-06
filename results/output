@@ -1,0 +1,131 @@
++ Rscript /code/S1_hypothesis_tests.R
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: Matrix
+  hypothesis predictor     OR CI_low CI_high        p   p_holm   sig
+1         H1    anchor  0.309 0.0739    1.30 1.09e-01 0.760156 FALSE
+2         H2    access  0.509 0.1329    1.95 3.25e-01 1.000000 FALSE
+3         H3     black  1.963 0.5122    7.53 3.25e-01 1.000000 FALSE
+4         H4     woman  1.963 0.5122    7.53 3.25e-01 1.000000 FALSE
+5         H5    anchor 11.693 3.7389   36.57 2.37e-05 0.000189  TRUE
+6         H6    access  1.634 0.7327    3.64 2.30e-01 1.000000 FALSE
+7         H7     black  0.612 0.2744    1.36 2.30e-01 1.000000 FALSE
+8         H8     woman  1.384 0.6264    3.06 4.22e-01 1.000000 FALSE
++ Rscript /code/S2_figure1.R
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
++ Rscript /code/S3_sankey.R
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error flow counts:
+# A tibble: 7 × 4
+  gold_label                 llm_label           shift_category           freq
+  <fct>                      <fct>               <fct>                   <int>
+1 "Home (A)\n83/128 wrong"   "Routine (B)\nn=72" Over-triage (1 level)      70
+2 "Home (A)\n83/128 wrong"   "Urgent (C)\nn=47"  Over-triage (≥2 levels)    13
+3 "Routine (B)\n9/128 wrong" "Home (A)\nn=8"     Under-triage (1 level)      8
+4 "Routine (B)\n9/128 wrong" "Urgent (C)\nn=47"  Over-triage (1 level)       1
+5 "Urgent (C)\n37/160 wrong" "Routine (B)\nn=72" Under-triage (1 level)      2
+6 "Urgent (C)\n37/160 wrong" "ED now (D)\nn=35"  Over-triage (1 level)      35
+7 "ED now (D)\n33/64 wrong"  "Urgent (C)\nn=47"  Under-triage (1 level)     33
++ Rscript /code/S4_heatmap.R
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
++ Rscript /code/S5_phase1_descriptive.R
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
++ Rscript /code/S6_irr.R
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: lpSolve
++ Rscript /code/S7_labs_accuracy.R
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: Matrix
++ Rscript /code/S8_confidence.R
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
++ Rscript /code/S9_guardrail.R
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+

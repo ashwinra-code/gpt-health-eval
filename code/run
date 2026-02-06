@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -ex
+
+Rscript /code/S1_hypothesis_tests.R
+Rscript /code/S2_figure1.R
+Rscript /code/S3_sankey.R
+Rscript /code/S4_heatmap.R
+Rscript /code/S5_phase1_descriptive.R
+Rscript /code/S6_irr.R
+Rscript /code/S7_labs_accuracy.R
+Rscript /code/S8_confidence.R
+Rscript /code/S9_guardrail.R
